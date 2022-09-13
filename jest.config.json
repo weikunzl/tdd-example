@@ -1,0 +1,8 @@
+{
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "globals": { "ts-jest": { "diagnostics": false } },
+    "transform": {},
+    "testMatch": ["<rootDir>/**/*.spec.ts"],
+    "transformIgnorePatterns": ["<rootDir>/node_modules/"]
+}
